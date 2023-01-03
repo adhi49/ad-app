@@ -2,7 +2,6 @@ import { useState } from "react";
 import AgriForm from "./AgriForm";
 import AgriTable from "./AgriTable";
 import { Button } from "reactstrap";
-import "./Agri.css"
 const Agri = () => {
     const [isModalOpen, setModal] = useState(false)
     const [client, setClient] = useState({})
